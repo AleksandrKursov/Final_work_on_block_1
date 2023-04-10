@@ -1,13 +1,4 @@
-﻿// Написать программу, которая из имеющегося массива строк
-// формирует массив из строк, длина которых меньше либо равна 3 символам.
-// Первоначально массив можно ввести с клавиатуры, либо задать на старте
-// выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями,
-// лучше обойтись исключительно массивами.
-// ["hello","2","world",":-)"]->["2",":-)"]
-// ["1234","1567","-2","computer science"]->["-2"]
-// ["Russia","Denmark","Kazan"]->[]
-
-string[] InputArray(string text)
+﻿string[] InputArray(string text)
 {
     System.Console.Write(text);
     return Console.ReadLine()!.Split(" ");
@@ -48,10 +39,10 @@ string[] ArraySorting(string[] arr, int size)
 
 System.Console.WriteLine();
 string[] myArray = InputArray("Enter a space-separated string array: ");
-int lengthNewArray = FindingLengthNewArray(myArray);
 System.Console.WriteLine();
 System.Console.Write("Initial array: ");
 PrintArray(myArray);
+int lengthNewArray = FindingLengthNewArray(myArray);
 System.Console.WriteLine();
 System.Console.Write("Sorted array: ");
 PrintArray(ArraySorting(myArray, lengthNewArray));
