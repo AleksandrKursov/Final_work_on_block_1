@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" modified="2023-04-10T19:21:05.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.5" etag="feX2Mlj-_n1kZlWji3f0" type="device">
+  <diagram id="DOIgwlXEqaafAFXpoiGY" name="Страница 1">
+    <mxGraphModel dx="1231" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-2" target="9vbqYgsjNFoGHN9lTWUi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-3" target="9vbqYgsjNFoGHN9lTWUi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-3" value="lengthNewArray = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301.25" y="380" width="197.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-5" value="Изображена блок-схема основной содержательной части алгоритма решения,&lt;br&gt;методы&amp;nbsp;FindingLengthNewArray и&amp;nbsp;ArraySorting&lt;br&gt;(разрешено условиями, см. README.md)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="10" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-9" value="В моей программе не вводится&amp;nbsp; кол-во элементов N (подстрок), которые будут в массиве, поэтому не указываю N над массивом&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="260" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-13" target="9vbqYgsjNFoGHN9lTWUi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-13" value="myArray[N]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-16" target="9vbqYgsjNFoGHN9lTWUi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-16" value="print(myArray[N])" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-19" value="Выводим массив, чтобы его было наглядно видно в терминале" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-20" target="9vbqYgsjNFoGHN9lTWUi-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="580" />
+              <mxPoint x="400" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-38" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9vbqYgsjNFoGHN9lTWUi-23">
+          <mxGeometry x="-0.2688" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="520" />
+              <mxPoint x="580" y="830" />
+              <mxPoint x="400" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9vbqYgsjNFoGHN9lTWUi-34">
+          <mxGeometry x="-0.8483" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-20" value="i = 0; i &amp;lt;myArray.Length; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="296.5" y="480" width="207" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-22" target="9vbqYgsjNFoGHN9lTWUi-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9vbqYgsjNFoGHN9lTWUi-26">
+          <mxGeometry x="-0.156" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9vbqYgsjNFoGHN9lTWUi-35">
+          <mxGeometry x="-0.043" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-22" value="myArray[i].Length &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="610" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-29" target="9vbqYgsjNFoGHN9lTWUi-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="780" />
+              <mxPoint x="210" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-29" value="lengthNewArray++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-33" target="9vbqYgsjNFoGHN9lTWUi-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-45" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9vbqYgsjNFoGHN9lTWUi-43">
+          <mxGeometry x="-0.1384" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-33" target="9vbqYgsjNFoGHN9lTWUi-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="1000" />
+              <mxPoint x="580" y="1310" />
+              <mxPoint x="400" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9vbqYgsjNFoGHN9lTWUi-52">
+          <mxGeometry x="-0.9032" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-33" value="i = 0; i &amp;lt;myArray.Length; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="296.5" y="960" width="207" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-37" target="9vbqYgsjNFoGHN9lTWUi-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-37" value="sortedArray[lengthNewArray]&lt;br&gt;&lt;br&gt;index = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="860" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-40" value="Находим через цикл for сколько элементов будет в новом массиве" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="640" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-41" value="Вроде бы правильно записал, что объявлен новый массив с количеством элементов lengthNewArray, при этом сами элементы еще не известны" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="875" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-44" target="9vbqYgsjNFoGHN9lTWUi-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-48" value="&lt;font size=&quot;3&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9vbqYgsjNFoGHN9lTWUi-47">
+          <mxGeometry x="-0.2731" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9vbqYgsjNFoGHN9lTWUi-50">
+          <mxGeometry x="-0.1936" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-44" value="myArray[i].Length &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1090" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-46" target="9vbqYgsjNFoGHN9lTWUi-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="1255" />
+              <mxPoint x="210" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-46" value="sortedArray[index] = myArray[i]&lt;br&gt;&lt;br&gt;index++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1230" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9vbqYgsjNFoGHN9lTWUi-53" target="9vbqYgsjNFoGHN9lTWUi-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-53" value="print(sortedArray[lengthNewArray])" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1370" width="226.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-56" value="Второй цикл for для заполнения нового массива элементами, которые соответствуют условиям по длине подстроки&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1120" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-57" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Возможно я сделал не правильно и для составления блок-схемы не нужно два раза повторять один и тот же цикл for и условие if, но я сделал так, как написал программу.&lt;br&gt;Может есть более короткое решение, но у меня не получалось красивого вывода массива, пока я не сделал отдельного цикла на нахождение длины нового массива.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="154" y="1590" width="506" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-58" value="Выводим новый заполненный массив" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1370" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9vbqYgsjNFoGHN9lTWUi-59" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338.25" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
